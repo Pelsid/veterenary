@@ -1,0 +1,1143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+h2 {
+    font-size: 74px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 64px;
+    margin: 0;
+}
+
+h4 {
+    font-size: 50px;
+    margin: 0;
+}
+
+a.button {
+    width: 180px;
+    height: 65px;
+    display: block;
+    font-size: 21px;
+    padding: 18px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: system-ui;
+    transition: all .3s;
+    color: #fff;
+    background-color: #fcc302;
+}
+
+a.button:hover {
+    filter: brightness(80%);
+}
+
+.flex-wrap {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #daac00;
+    padding: 0px 140px;
+}
+
+#nav-mobile {
+    display: none;
+}
+
+header>#nav-wide {
+    height: 121px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.nav-list ul {
+    padding-left: 0px;
+}
+
+.nav-list ul li {
+    display: inline;
+    margin-right: 76px;
+}
+
+.nav-list ul li a>img {
+    width: 212px;
+    height: 56px;
+}
+
+.nav-list ul li>a {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.nav-list ul li>a:hover {
+    text-shadow: 2px 2px 3px #000000;
+}
+
+#search {
+    box-shadow: 7.5px 14.1px 14.9px 3.1px rgb(74 74 74 / 10%);
+    background-color: #fcc302;
+}
+
+#search>.input-search {
+    max-width: 75%;
+    height: 51px;
+    padding-left: 20px;
+    font-size: 21px;
+    float: left;
+    border: navajowhite;
+    outline: none;
+    letter-spacing: 0.21px;
+    color: #fff;
+    background-color: #fcc302;
+}
+
+#search>.input-search::placeholder {
+    color: #fff;
+}
+
+#search>button {
+    width: 25%;
+    height: 51px;
+    box-sizing: border-box;
+    background-color: #00bec9;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#search>button:hover {
+    filter: brightness(80%);
+}
+
+#search>button>.icon-search {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 24px;
+    color: #F9F0DA;
+}
+
+#search>button>.icon-search::before {
+    content: "🔍︎";
+}
+
+section {
+    padding: 88px 140px;
+}
+
+.yello-section {
+    color: #fff;
+    background-color: #fcc302;
+}
+
+.wrap {
+    margin: auto;
+    max-width: 1440px;
+}
+
+.text-only p {
+    margin: auto;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-blocks {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+/* want-be-veterinarian  */
+
+.want-be-veterinarian .info {
+    padding-right: 90px;
+    line-height: 1.2;
+}
+
+.want-be-veterinarian .info p {
+    font-size: 31px;
+    padding-right: 49px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.want-be-veterinarian .button {
+    float: left;
+    background-color: #00bec9;
+}
+
+.want-be-veterinarian .transparent {
+    padding: 18px 32px;
+    margin-left: 30px;
+    color: #fff;
+    background-color: unset;
+    border: 3px solid #fff;
+}
+
+.want-be-veterinarian .transparent:hover {
+    filter: brightness(50%);
+}
+
+/* holding-paw  */
+
+.holding-paw .info {
+    padding-right: 80px;
+}
+
+.holding-paw .info p {
+    font-size: 33px;
+    font-weight: 600;
+    font-family: system-ui;
+    margin: 49px 0;
+}
+
+.holding-paw .picture {
+    position: relative;
+}
+
+.holding-paw .picture .yellow-square{
+    width: 250px;
+    height: 210px;
+    position: absolute;
+    top: 310px;
+    right: 296px;
+    z-index: 1;
+    background-color: #fcc302;
+}
+
+.holding-paw .picture .yellow-img{
+    width: 500px;
+    height: 480px;
+    position: relative;
+    margin-bottom: 40px;
+    z-index: 2;
+    background-color: #fcc302;
+}
+
+.holding-paw .picture .yellow-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/shepherd-dog.png);
+    background-size: cover;
+    opacity: 0.5;
+}
+
+
+
+/* vet-with-dog  */
+
+.vet-with-dog {
+    text-align: center;
+}
+
+.vet-with-dog .text-only {
+    margin-bottom: 80px;
+}
+
+.vet-with-dog .text-only h2 {
+    margin: 0 0 30px 0;
+}
+
+.vet-with-dog .list-blocks .service {
+    padding: 0px 30px;
+}
+
+.vet-with-dog .list-blocks .service img {
+    margin-bottom: 40px;
+    max-width: 380px;
+    width: 100%;
+}
+
+.vet-with-dog .list-blocks .service .service-header {
+    display: inline-block;
+    font-size: 43px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.vet-with-dog .list-blocks .service .service-description {
+    font-size: 29px;
+    margin: 10px 0px 0px 0;
+}
+
+/* examines-ears  */
+
+.examines-ears .info {
+    padding-left: 80px;
+}
+
+.examines-ears .info h4 {
+    padding-left: 80px;
+}
+
+.examines-ears .info h3 {
+    text-align: right;
+}
+
+.examines-ears .info p {
+    margin: 49px 0;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: system-ui;
+    text-align: right;
+}
+
+.examines-ears .info .button {
+    float: right;
+}
+
+.examines-ears .picture {
+    position: relative;
+}
+
+.examines-ears .picture .yellow-square{
+    width: 250px;
+    height: 210px;
+    position: absolute;
+    top: 310px;
+    left: 296px;
+    z-index: 1;
+    background-color: #fcc302;
+}
+
+.examines-ears .picture .yellow-img{
+    width: 500px;
+    height: 480px;
+    position: relative;
+    margin-bottom: 40px;
+    z-index: 2;
+    background-color: #fcc302;
+}
+
+.examines-ears .picture .yellow-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/shepherd-dog\(2\).png);
+    background-size: cover;
+    opacity: 0.5;
+}
+
+/* discount  */
+
+.discount {
+    text-align: center;
+}
+
+.discount .text-only {
+    margin-bottom: 80px;
+}
+
+.discount .text-only h2 {
+    margin: 0 0 30px 0;
+}
+
+.discount .list-blocks {
+    justify-content: space-between;
+}
+
+.discount .list-blocks .service {
+    padding: 0px 30px;
+}
+
+.discount .list-blocks .service img {
+    margin-bottom: 40px;
+    max-width: 380px;
+    width: 100%;
+}
+
+.discount .list-blocks .service .price {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.discount .list-blocks .service .price .common-price {
+    margin-right: 20px;
+}
+
+.discount .list-blocks .service .button {
+    font-size: 25px;
+    margin: 30px auto;
+    padding: 13px 27px;
+    border-radius: 50px;
+    background-color: #00bec9;
+}
+
+/* vets  */
+
+.vets {
+    text-align: center;
+}
+
+.vets .text-only {
+    margin-bottom: 80px;
+}
+
+.vets .text-only h2 {
+    margin: 0 0 30px 0;
+}
+
+.vets .list-blocks .vet {
+    padding: 0px 30px;
+}
+
+.vets .list-blocks img {
+    margin-bottom: 40px;
+    max-width: 380px;
+    width: 100%;
+}
+
+.vets .list-blocks .vet-header {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.vets .list-blocks .vet-description {
+    font-size: 29px;
+    margin: 10px 0px 20px 0;
+}
+
+.vets .links-to-social a {
+    margin: 0px 5px;
+}
+
+.vets .links-to-social a img {
+    width: 40px;
+    border: 2px solid #fcc302;
+    border-radius: 27px;
+    background-color: #fcc302;
+}
+
+/* statistics  */
+
+.statistics {
+    position: relative;
+    padding: 88px 90px;
+}
+
+.yello-section.statistics::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/wide-picture.png);
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.statistics .list-blocks {
+    justify-content: space-around;
+}
+
+.statistics .list-blocks .statistics {
+    text-align: center;
+}
+
+.statistics .list-blocks .statistics img {
+    margin-bottom: 40px;
+    max-width: 120px;
+    width: 100%;
+}
+
+.statistics .list-blocks .statistics .statistics-header {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.statistics .list-blocks .statistics .statistics-description {
+    font-size: 38px;
+    font-weight: 800;
+    margin: 10px 0px 0px 0;
+}
+
+/* recent-posts  */
+
+.recent-posts {
+    text-align: center;
+}
+
+.recent-posts .text-only {
+    margin-bottom: 80px;
+}
+
+.recent-posts .text-only h2 {
+    margin: 0 0 30px 0;
+}
+
+.recent-posts .list-blocks .posts {
+    margin: 0px 20px;
+    box-shadow: 2px 10px 26px 2px rgb(74 74 74 / 25%);
+}
+
+.recent-posts .list-blocks img {
+    max-width: 380px;
+    width: 100%;
+}
+
+.recent-posts .list-blocks .post-only-text {
+    padding: 30px 30px;
+}
+
+.recent-posts .list-blocks .posts-header {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.recent-posts .list-blocks .posts-data {
+    text-align: left;
+    padding: 15px 0px;
+}
+
+.recent-posts .list-blocks .posts-data span {
+    font-size: 22px;
+    font-weight: 500;
+    color: #00bec9;
+}
+
+.recent-posts .list-blocks .posts-description {
+    font-size: 26px;
+    margin: 10px 0px 20px 0;
+    text-align: left;
+}
+
+.recent-posts .list-blocks .more-posts {
+    text-align: left;
+}
+
+.recent-posts .list-blocks .more-posts a {
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #00bec9;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    background-color: #343434;
+    padding: 88px 160px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+footer .links {
+    flex-basis: 28%;
+}
+
+footer .for-connect {
+    flex-basis: 44%;
+    text-align: right;
+}
+
+footer .header-list span {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+footer .links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer .links ul li {
+    padding: 3px 0px;
+}
+
+footer .links ul li a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .for-connect p {
+    font-size: 28px;
+    margin: 0px 0px 30px 0px;
+    color: #fff;
+}
+
+footer #message input {
+    width: 75%;
+    height: 70px;
+    padding: 0px 20px;
+    font-size: 21px;
+    float: left;
+    border: navajowhite;
+    outline: none;
+    letter-spacing: 0.21px;
+    color: #fff;
+    background-color: #fcc302;
+}
+
+footer #message button {
+    width: 25%;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: #00bec9;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+footer #message button img {
+    width: 36px;
+    height: 41px;
+    filter: invert(100%);
+    transform: rotate(-10deg);
+}
+
+footer .links-to-social {
+    margin-top: 20px;
+}
+
+footer .links-to-social a {
+    margin: 0px 7px;
+}
+
+
+/* media queries */
+
+
+@media (max-width: 1440px) {
+
+    .nav-list {
+        padding: 16px 0px;
+    }
+
+    #search {
+        margin-left: 0px;
+    }
+
+    .nav-list ul li {
+        margin-right: 50px;
+    }
+
+    .nav-list ul li a>img {
+        width: 130px;
+        height: 42px;
+    }
+
+    .statistics {
+        padding: 88px 0px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .nav-list ul li:first-child {
+        display: none;
+    }
+}
+
+    @media (max-width: 1140px) {
+        /*    header>.nav-wide {
+        max-width: 1140px;
+    }
+*/
+
+        .flex-center {
+            padding: 5px 0px;
+            justify-content: space-around;
+        }
+
+        .nav-list {
+            padding: 6px 0px;
+        }        
+
+        .nav-list ul li {
+            margin-right: 50px;
+        }
+
+        .nav-list ul li a>img {
+            width: 130px;
+            height: 42px;
+        }
+
+        .list-blocks {
+            flex-wrap: wrap;
+        }
+
+        .mobile_layout {
+            flex-basis: 100%;
+        }
+
+        footer {
+            flex-wrap: wrap;
+        }
+
+        /* want-be-veterinarian */
+
+        .want-be-veterinarian .wrap {
+            position: relative;
+        }
+
+        .want-be-veterinarian .info {
+            padding-right: unset;
+            z-index: 2;
+        }
+
+        .want-be-veterinarian .picture {
+            position: absolute;
+            z-index: 1;
+            opacity: 0.8;
+            right: 0;
+            text-align: center;
+        }
+
+        .want-be-veterinarian .picture img {
+            max-width: 74%;
+        }
+
+        /* holding-paw */
+
+        .holding-paw .wrap {
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        .holding-paw .buttons {
+            position: absolute;
+            bottom: 43%;
+        }
+
+        .holding-paw .picture {
+            width: 100%;
+            text-align: right;
+            margin-top: 20px;
+        }
+
+        /* holding-paw */
+
+        section .wrap .text-only {
+            margin-bottom: 40px;
+        }
+
+        .wrap .list-blocks .service {
+            padding: unset;
+            margin-top: 100px;
+        }
+
+        .vet-with-dog .list-blocks .service img {
+            margin-bottom: 20px;
+        }
+
+        .vet-with-dog .list-blocks .service .service-header {
+            display: block;
+        }
+
+        /* examines-ears */
+
+        .examines-ears .wrap {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            position: relative;
+        }
+
+        .examines-ears .buttons {
+            position: absolute;
+            bottom: 46%;
+            right: 0;
+        }
+
+        .examines-ears .picture {
+            width: 100%;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .examines-ears .info {
+            padding-left: unset;
+        }
+
+        /* discount */
+
+        .discount .list-blocks .service .button {
+            width: 250px;
+        }
+
+        /* vets */
+
+        .wrap .list-blocks .vet {
+            padding: unset;
+            margin-top: 100px;
+        }
+
+        .vets .list-blocks .vet-header {
+            display: block;
+            margin: 15px 0px;
+        }
+
+        .vets .list-blocks .vet-description {
+            font-size: 29px;
+            margin: 20px 0px;
+        }
+
+        .vets .links-to-social a {
+            margin: 0px 15px;
+        }
+
+        .recent-posts .list-blocks .posts {
+            margin: 30px 0px;
+            box-shadow: 0px 2px 18px 4px rgb(74 74 74 / 25%);
+        }
+
+        .recent-posts .list-blocks img {
+            max-width: unset;
+        }
+
+        .recent-posts .list-blocks .post-only-text {
+            text-align: left;
+        }
+
+        footer .links {
+            flex-basis: 50%;
+        }
+
+        footer .for-connect {
+            flex-basis: 100%;
+            text-align: left;
+            margin-top: 40px;
+        }
+
+    }
+
+    @media (max-width: 1024px) {
+
+        /* holding-paw */
+
+        .holding-paw .info {
+            padding-right: unset;
+            position: relative;
+        }
+
+        .holding-paw .buttons {
+            position: absolute;
+            bottom: -18%;
+        }
+
+        /* examines-ears */
+
+        .examines-ears .picture img {
+            max-width: 70%;
+        }
+
+        .examines-ears .buttons {
+            position: absolute;
+            bottom: 45%;
+            right: 0;
+        }
+
+    }
+
+    @media (max-width: 960px) {
+
+        h2 {
+            font-size: 60px;
+        }
+
+        h3 {
+            font-size: 50px;
+        }
+
+        .text-only p {
+            font-size: 30px;
+        }
+
+        nav {
+            display: none;
+        }
+
+        #nav-mobile {
+            display: block;
+        }
+
+        #nav-hamburger {
+            width: 80px;
+            height: 80px;
+            top: 10px;
+            right: 10px;
+            position: fixed;
+            border-radius: 20px;
+            background-color: #ffffffd1;
+            z-index: 9999999;
+            transition: all .3s;
+        }
+
+        #nav-hamburger .lines-hamburger .line {
+            width: 63px;
+            height: 6px;
+            margin: 15.7px 9px;
+            border-radius: 5px;
+            transition: all .8s;
+            transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+            background-color: #000000a8;
+        }
+
+        .show #nav-hamburger {
+            right: 72%;
+        }
+
+        .show #nav-hamburger .lines-hamburger .line {
+            height: 9px;
+            margin: 0;
+        }
+
+        .show #nav-hamburger .line:nth-child(1) {
+            transform: translate(9px, 36px) rotate(-45deg);
+        }
+
+        .show #nav-hamburger .line:nth-child(2) {
+            transform: translate(9px, 26px) rotate(45deg);
+        }
+
+        .show #nav-hamburger .line:nth-child(3) {
+            transform: translate(9px, 26px) rotate(45deg);
+            opacity: 0;
+        }
+
+        #nav-mobile .mobile-links {
+            width: 70%;
+            height: 150%;
+            top: 0px;
+            right: -700px;
+            position: fixed;
+            text-align: center;
+            background-color: #000000eb;
+            z-index: 9999;
+            transition: all .3s;
+        }
+
+        #nav-mobile.show .mobile-links {
+            right: -1px;
+        }
+
+        #nav-mobile .mobile_list {
+            padding: 0px 50px;
+            text-align: center;
+        }
+
+        #nav-mobile .mobile-list li {
+            list-style-type: none;
+            padding: 30px 0px;
+            border-bottom: 4px dashed #ffffff21;
+        }
+
+        #nav-mobile .mobile-list li a {
+            font-size: 40px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .want-be-veterinarian .info p {
+            padding-right: unset;
+        }
+
+        /* holding-paw */
+
+        .holding-paw {
+            position: relative;
+        }
+
+        .holding-paw::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(./img/shepherd-dog.png);
+            background-size: cover;
+            opacity: 0.2;
+        }
+
+        .holding-paw .picture {
+            display: none;
+        }
+
+        .holding-paw .buttons {
+            position: unset;
+        }
+
+        /* examines-ears */
+
+        .examines-ears {
+            position: relative;
+        }
+
+        .examines-ears::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(./img/shepherd-dog\(2\).png);
+            background-size: cover;
+            opacity: 0.2;
+        }
+
+        .examines-ears .picture {
+            display: none;
+        }
+
+        .examines-ears .buttons {
+            position: unset;
+        }
+
+    }
+
+    @media (max-width: 720px) {
+
+        h2 {
+            font-size: 50px;
+        }
+
+        h3 {
+            font-size: 40px;
+        }
+
+        .text-only p {
+            font-size: 29px;
+        }
+
+        section {
+            padding: 80px 50px;
+        }
+
+        footer {
+            padding: 80px 50px;
+        }
+
+        footer .links {
+            flex-basis: 100%;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 540px) {
+
+        h2 {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 35px;
+        }
+
+        .text-only p {
+            font-size: 25px;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        a.button {
+            width: 70%;
+            float: unset;
+            padding: 19px 25px;
+            text-align: center;
+        }
+
+        .want-be-veterinarian .transparent {
+            padding: 18px 21px;
+            margin-top: 40px;
+            margin-left: unset;
+        }
+
+        section .wrap .text-only {
+            margin-bottom: unset;
+        }
+
+        /* discount */
+
+        .discount .list-blocks .service .button {
+            width: unset;
+        }
+
+        /* statistics */
+
+        .statistics {
+            position: relative;
+            padding: 50px 0px;
+        }
+
+        .vets .links-to-social a {
+            margin: 0px 5px;
+        }
+
+
+        .recent-posts .list-blocks .posts-header {
+            font-size: 25px;
+        }
+
+        .recent-posts .list-blocks .posts-data span {
+            font-size: 20px;
+        }
+
+        .recent-posts .list-blocks .posts-description {
+            font-size: 20px;
+        }
+
+        .recent-posts .list-blocks .more-posts a {
+            font-size: 25px;
+        }
+    }
