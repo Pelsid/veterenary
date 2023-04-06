@@ -4,4 +4,4 @@ function showMenu () {
 	elem.classList.toggle("show")
 }
 
-console.log('https://howdyho.net/freebies/psd-maket-veterinary');
+console.log('link to the layout ' + 'https://howdyho.net/freebies/psd-maket-veterinary');
